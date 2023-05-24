@@ -24,11 +24,11 @@ public class ArraysDemo
                 max=arr[i];
             }
         }
-        }
-        if(flag==0)
-        System.out.println("-1");
-        else
-        System.out.println(max);
+            }
+            if(flag==0)
+            System.out.println("-1");
+            else 
+            System.out.println(max);
     }
     public static void main(String args[])
     {
@@ -40,4 +40,4 @@ public class ArraysDemo
         x[i]=sc.nextInt();
         unique(x,n);
     }
-}
+    }
